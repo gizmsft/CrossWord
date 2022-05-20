@@ -1,0 +1,28 @@
+{
+  "name": "",
+  "code": "00000",
+  "sizeX": 0,
+  "sizeY": 0,
+  "riddles": [
+    { "id": 1, "across": true, "riddle": "", "location": { "x": 0, "y": 0 }, "answerLength": 0 },
+    { "id": 2, "across": true, "riddle": "", "location": { "x": 0, "y": 0 }, "answerLength": 0 },
+    { "id": 3, "across": true, "riddle": "", "location": { "x": 0, "y": 0 }, "answerLength": 0 },
+    { "id": 4, "across": true, "riddle": "", "location": { "x": 0, "y": 0 }, "answerLength": 0 },
+    { "id": 5, "across": true, "riddle": "", "location": { "x": 0, "y": 0 }, "answerLength": 0 },
+    { "id": 6, "across": true, "riddle": "", "location": { "x": 0, "y": 0 }, "answerLength": 0 },
+    { "id": 7, "across": true, "riddle": "", "location": { "x": 0, "y": 0 }, "answerLength": 0 },
+    { "id": 8, "across": true, "riddle": "", "location": { "x": 0, "y": 0 }, "answerLength": 0 },
+    { "id": 9, "across": true, "riddle": "", "location": { "x": 0, "y": 0 }, "answerLength": 0 }
+  ],
+  "answers": [
+    { "id": 1, "value": "" },
+    { "id": 2, "value": "" },
+    { "id": 3, "value": "" },
+    { "id": 4, "value": "" },
+    { "id": 5, "value": "" },
+    { "id": 6, "value": "" },
+    { "id": 7, "value": "" },
+    { "id": 8, "value": "" },
+    { "id": 9, "value": "" }
+  ]
+}
