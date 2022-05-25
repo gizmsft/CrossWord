@@ -1,0 +1,107 @@
+.cross-word {
+  font-size: 12px;
+  margin-top: 30px;
+  max-width: 900px;
+}
+
+.game-main-container {
+  display: flex;
+}
+
+.game-container-panel {
+  flex: 1 1;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.game-container-riddle {
+  flex: 1 1;
+  text-align: right;
+  padding-left: 15px;
+}
+
+.game-panel {
+  direction: rtl;
+  display: inline-block;
+  border: 1px solid #000000;
+  user-select: none;
+}
+
+.game-panel-row {
+  white-space: nowrap;
+}
+
+.game-panel-cell {
+  display: inline-block;
+  vertical-align: top;
+  height: 40px;
+  width: 40px;
+  position: relative;
+  font-size: 22px;
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+.game-panel-cell-across-number {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 9px;
+}
+
+.game-panel-cell-down-number {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 9px;
+}
+
+.game-cell-black {
+  background-color: #000000;
+}
+
+.game-cell-white {
+  background-color: #ffffff;
+}
+
+.game-cell-correct {
+  background-color: #008800;
+  color: #ffffff;
+}
+
+.game-cell-incorrect {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+.riddle-section-heading {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.riddle-box {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.riddle-number {
+  display: inline-block;
+  font-size: 16px;
+  float: right;
+  margin-left: 5px;
+}
+
+  .riddle-number::before {
+    content: '-';
+  }
+
+.riddle {
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.riddle-input {
+  font-size: 16px;
+  direction: rtl;
+}
