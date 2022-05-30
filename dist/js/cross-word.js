@@ -146,7 +146,7 @@
       $.each(riddles, function (i, item) {
         var $riddleBox = $riddleBoxTemplate.clone().appendTo($gameRiddleContainer);
         $riddleNumberTemplate.clone().append(item.id).appendTo($riddleBox);
-        $riddleTemplate.clone().append(item.riddle).appendTo($riddleBox);
+        $riddleTemplate.clone().append(item.hint).appendTo($riddleBox);
         $riddleAnwerTemplate.clone().appendTo($riddleBox)
           .append(
             $("<input type='text' class='" + local.settings.css.riddleInputClass + "' maxlength=" + item.answerLength + " />")
